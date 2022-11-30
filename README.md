@@ -94,7 +94,7 @@ Results:
 - Precision: 83%
 - Recall: 81%
 
-### ClusteredCentroids
+### ClusteredCentroids algorithim report
 <img width="1440" alt="ClusteredCentroids Report Seg 3" src="https://user-images.githubusercontent.com/107444840/204898702-edaef90c-39f4-4fc6-b7df-20fef546cbbb.png">
 
 Results:
@@ -104,7 +104,7 @@ Results:
 - Recall: 85%
 
 
-### Smotten
+### Smotten algorithim report
 <img width="1440" alt="Smotten Report Seg 3" src="https://user-images.githubusercontent.com/107444840/204898723-bea3e57d-58c1-4620-a212-d82eb9fb589d.png">
 
 Results:
@@ -115,3 +115,6 @@ Results:
 
 
 ## Analysis phase
+From our data collection and coding reports above, we can see that the RandomOverSampler had the highest accuracy score at the 85.83% mark. Our second highest was the ClusterCentroids at the 85% mark, very close to our RandomOverSampler. I believe that we have collected very important data, but it would be interesting to see more about the history of the teams playoof and regualer seasons data previous to the 2018-2019 Championship season. The Toronto Raptors have not always been the team it was for certain during this 2018-2019 period, so it would be intersting to collect data going back since 2000 in order to further evaluate the performance and accruacy score levels of these years prior to the championship run. I would recommend when running ananalysis in the future to use the RandomOverSampler because it brought us the most accurate results in our data analysis. If I could do this again, I would look at more of the outlying statistics(potential limitation) in order to help improve our data collection anaylsis results. 
+
+### End of Segment 3
