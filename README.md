@@ -18,5 +18,5 @@ For my data source, I was able to find a dataset of the NBA champion Toronto Rap
 - The teams key ststitics from games compared to the actual team outcome of the game?
 
 ### Communication Protocols
-for my project as far as communication, I am working solo on this project. However, I will creating a list of all the requirments for each week from the Rubrics given for each segment. This will keep me in order and on time to develop our project at the righ pace. 
+for my project as far as communication, I am working solo on this project. However, I will creating a list of all the requirments for each week from the Rubrics given for each segment. This will keep me in order and on time to develop our project at the right pace. 
 
