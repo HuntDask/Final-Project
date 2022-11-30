@@ -1,5 +1,5 @@
 # Final-Project
-## NBA Finals and League MVP
+## NBA Champion Toronto Raptors Analysis
 
 ### Topic
 For my final project, I will be examining a database of the 2018-2019 NBA Champion Toronto Raptors to study their production and performance numbers in their historic run.
