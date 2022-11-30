@@ -26,7 +26,7 @@ For our database, I started by creating a ERD file in quickdatabaseprograms. I w
 <img width="1440" alt="Segment 1 SQL" src="https://user-images.githubusercontent.com/107444840/204729954-99adc5fb-3a4a-480e-bd9e-70a36596358a.png">
 
 ## Machine Learning
-From the data we collected and developed through our ERD and SQL, we can use our machine learning models that we have developed in class. To look at our Raptors data we have collected more closely, we will use both under and oversampling along with differnet sampling algorithims in order to find what statistics/categories are the most important for us to develop and study further. We will examine our analyis by using algorithims we have learned in class. These four main algirithems are RandomOversampler(Over), Smote(Over), ClusterCentoids(Under), and Smotten(Under). These will tell us which of the models we are using will bring us the most accurate data results on the Toronto Raptors and predicitng the teams outcomes. Below are some of the examples that we used previously in our database creation in order to start our machine learning in pandas in the next segment. We explain in detial our actual outline of data exploration and coding in the future segments.
+From the data we collected and developed through our ERD and SQL, we can use our machine learning models that we have developed in class. To look at our Raptors data we have collected more closely, we will use both under and oversampling along with differnet sampling algorithims in order to find what statistics/categories are the most important for us to develop and study further. We will examine our analyis by using algorithims we have learned in class. These four main algirithems are RandomOversampler(Over), Smote(Over), ClusterCentroids(Under), and Smotten(Under). These will tell us which of the models we are using will bring us the most accurate data results on the Toronto Raptors and predicitng the teams outcomes. Below are some of the examples that we used previously in our database creation in order to start our machine learning in pandas in the next segment. We explain in detial our actual outline of data exploration and coding in the future segments.
 
 <img width="309" alt="Machine Learning Model columns Segment 1" src="https://user-images.githubusercontent.com/107444840/204730974-3c05e784-3588-4129-ab67-1907d651d265.png">
 
@@ -39,7 +39,7 @@ For our data exploration, we aim to look at the two main data sets of the regula
 As said above, I was able to join two datasets the reulgar and playoff season statistics. Shown below is our prelimiary preprocessing, where I was able to code in order to exclude the different statistics that were not needed on order to do our accuracy analysis in our machine lear. I was able able to create our SQL file in order to take out any of the other data values that were not important by checking for null values in our Querying. Shown below, we can see that I removed the matchup, date, and team in order to take out unneccessary data not needed for our analysis. It is important because we do not want to have excess data when creating our aligorithims for resampling purposes. 
 
 ## Outline for our analysis using Pandas through Jupyter Notebook
-Thw main Jupter code I created from our datasets using pandas has been structured to analyze the Toronto Raptors team W/L. For our analysis, I am examining the two main data sets of the regular and playoff games. When we were asked to create a machine learning model of this Raptors data, we needed to create algorithins that were able to resample our data to help is include the most accurate data possible with the teams wins and losses. I was able to import the data in jupyter and do a cohesive analysis using the different coding tools we learned through pandas and Jupyter notebook. We aim to look at the four main algirithems are RandomOversampler(Over), Smote(Over), ClusterCentoids(Under), and Smotten(Under) in order to find the best accuracy for our data using resampling methods for the Toronto Raptors Organization. 
+Thw main Jupter code I created from our datasets using pandas has been structured to analyze the Toronto Raptors team W/L. For our analysis, I am examining the two main data sets of the regular and playoff games. When we were asked to create a machine learning model of this Raptors data, we needed to create algorithins that were able to resample our data to help is include the most accurate data possible with the teams wins and losses. I was able to import the data in jupyter and do a cohesive analysis using the different coding tools we learned through pandas and Jupyter notebook. We aim to look at the four main algirithems are RandomOversampler(Over), Smote(Over), ClusterCentroids(Under), and Smotten(Under) in order to find the best accuracy for our data using resampling methods for the Toronto Raptors Organization. 
 
 ## Making Our Code with Pandas through Jupyter Notebook steps
 ### Data can be found at Toronto Raptors Analysis.ipynb in our files above. 
@@ -62,10 +62,30 @@ Thw main Jupter code I created from our datasets using pandas has been structure
 6. Next, we create our second resampling algorithim using the Smote method.
 <img width="1440" alt="Screenshot #6 Smote" src="https://user-images.githubusercontent.com/107444840/204878115-37019d32-6733-423b-a893-a97e5e7d8485.png">
 
-7. Next, we create our third resampling algorithim using the ClusteredClustoid method.
+7. Next, we create our third resampling algorithim using the ClusteredCentroid method.
 <img width="1440" alt="Screenshot #7 ClusteredClustoid" src="https://user-images.githubusercontent.com/107444840/204878140-597200d3-0ac1-410b-b904-66acca8e4f2a.png">
 
 8. Finally, we create our fourth and last resampling algorithim using the Smotten method.
 <img width="1440" alt="Screenshot #8 Smotten" src="https://user-images.githubusercontent.com/107444840/204878171-a18ad5fb-a1b4-47a9-83e3-cafee1b18116.png">
 
 ### End of Segment 2
+
+## Algorithim Model Choice
+As described in our second segment, I have decided to use different resmapling algorithim methods in order to study the Toronto Raptors season and playoff data we collected. I have chosen seen with my formulas above to look at the Wins and Losses and which model can predicit the most accuracte results and scores. Comparing these different over and undersampling methods will bring a benfit when it comes to analyzing the most accurate Wins and Losses predicitons. A limitation of our algorithims however is that we may be missing and having some outlying problems with preicison in each model respectivelly. Below, we will examine our actual results from the created resampling coding in our Jupyter Notebook from Pandas that were shown above.
+
+## Algorithims results
+
+### RandomOverSampler algorithim report
+<img width="1437" alt="Screenshot #5 RandomOverSampling" src="https://user-images.githubusercontent.com/107444840/204897402-2ee33baf-ace8-46c5-853c-3de4f5b047a4.png">
+
+### Smote algorithim report
+<img width="1440" alt="Screenshot #6 Smote" src="https://user-images.githubusercontent.com/107444840/204897434-28a79904-40db-4d7b-b31e-f1141542c157.png">
+
+### ClusteredCentroids
+<img width="1440" alt="Screenshot #7 ClusteredClustoid" src="https://user-images.githubusercontent.com/107444840/204897466-608eaed4-2e65-4bd8-b311-72ffba4b41b5.png">
+
+### Smotten
+<img width="1440" alt="Screenshot #8 Smotten" src="https://user-images.githubusercontent.com/107444840/204897480-a0588eeb-532a-47f8-913b-c148ce9aa441.png">
+
+
+## Analysis phase
