@@ -68,3 +68,4 @@ Thw main Jupter code I created from our datasets using pandas has been structure
 8. Finally, we create our fourth and last resampling algorithim using the Smotten method.
 <img width="1440" alt="Screenshot #8 Smotten" src="https://user-images.githubusercontent.com/107444840/204878171-a18ad5fb-a1b4-47a9-83e3-cafee1b18116.png">
 
+### End of Segment 2
