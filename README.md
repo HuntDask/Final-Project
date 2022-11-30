@@ -12,8 +12,8 @@ For my data source, I was able to find a dataset off the data website Kaggle. I 
 
 ### Questions we will try to answer in our analysis:
 - What player was the best performing overall by main NBA stats(PTS, REB, AST, STL) through the regular and playoff series.
-- What is the correlation between the amount of minutes played and the overall score of the players.
-- What is the correlation between the amount of assists the Raptors have in a win versus a Loss in regular season and playoffs.
+- What is the correlation between the amount of minutes played for each Raptors player and the overall outcome(W/L)?
+- What is the correlation between the amount of assists the Raptors have in a win versus a loss in regular season and playoffs.
 - What is the correlation between the difference of wins and losses for the Raptors based on three pointers made.
 
 
@@ -134,6 +134,27 @@ From our bar graph creation on Tableu, we can examine the differences in the Ass
 
 ### What is the correlation between the difference of wins and losses for the Raptors based on three pointers made?
 <img width="1066" alt="3PM W:L in Playoffs:Reg" src="https://user-images.githubusercontent.com/107444840/204916611-777cc84f-4513-4399-acb3-cb6e22962177.png">
-Results: From our bubble chart that we created, We can see the differences in the game outcomes based on the amount of three pointers made in both the regular season and playoffs. In the regualar season, the amount of three pointers made was at 398, over 2 times as much as the amount of three pointers made in the teams losses. In the post season(Playoffs), we can see this same trend followed from the regular season. Allthough the difference between the two is not a huge number compared to the regular season, there was 166 made in wins compared to 109 made in losses. From our chart, we can easily see that the amount of three pointers made throughout the season has adirect effect on the overall win or loss outcome of the game regardless of regular season or playoffs.
+Results: From our bubble chart that we created, We can see the differences in the game outcomes based on the amount of three pointers made in both the regular season and playoffs. In the regular season, the amount of three pointers made was at 398, over 2 times as much as the amount of three pointers made in the teams losses. In the post season(Playoffs), we can see this same trend followed from the regular season. Allthough the difference between the two is not a huge number compared to the regular season, there was 166 made in wins compared to 109 made in losses. From our chart, we can easily see that the amount of three pointers made throughout the season has adirect effect on the overall win or loss outcome of the game regardless of regular season or playoffs.
 
-###  What is the correlation between the amount of minutes played for the Raptors and the overall score of the players?
+###  What is the correlation between the amount of minutes played for each Raptors player and the overall outcome(W/L)?
+<img width="1056" alt="Minutes to Outcome(Player Stat)" src="https://user-images.githubusercontent.com/107444840/204927459-643040cb-47b8-4476-8649-bfa9741fb2da.png">
+Result: From our bar chart that is created, we are able to study and examine the amount of minutees played for each Toronto Raptor Player and the overall outcome of the game. As we saw in our analysis earlier, Kawhi Leonard was the highest performing player for the Raptors during the 2018-2019 season. We can see that the amount of minutes he played was at a hig hof 627 total minutes in the teams wins, and also at the high of 312 minutes in the total losses. As far as Kyle Lowry and Pascal Siakam, they are actually tied in total minutes in wins and Kyle Lowry only has 10 more minutes played than Pascal Siakam in Losses. From these results, we can see that the Raptors team is best suited to win when these three players are playing the most minutes on the court in both the playoffs and regular season schedules.
+
+## Summary
+For our project, we were able to do lots of data analysis using many different forms of databases, machine learning, and visualization softwares in order to bring the best results and outcomes for the questions we seeked. Our topic of discussion for this project was to examine a database of the 2018-2019 NBA Champion Toronto Raptors and study their production and performance numbers in their historic run. We were able to look at the Raptors team from both a individual player and entire team in order to get the answers to questions we were searching for in our analysis. These four questions were able to be answered throughout extensive study of the 2018-2019 NBA Champion Toronto Raptors. 
+
+## Questions answered
+
+### 1. What player was the best performing overall by main NBA stats(PTS, REB, AST, STL) through the regular and playoff series.
+we concluded that Kawhi Leonard was our highest performing overall players on the 2018-2019 Toronto Raptors Championship team, leading in almost all categories for the team.
+
+### 2. What is the correlation between the amount of minutes played for each Raptors player and the overall outcome(W/L)?
+The leading players in all statistics for the team were Kawhi Leonard, Kyle Lowry, and Pascal Siakam. These three players had the most minutes played in all of the wins for the team, concluding that the amount of minutes played for the best players has direct effect on the overall outcome.
+
+### 3. What is the correlation between the amount of assists the Raptors have in a win versus a loss in regular season and playoffs.
+The Toronto Raptors have a far better performance and winning outcome in games when they record a higher amount of assists compared to when the team losse, 1539 and 629 W/L ratio.
+
+### 4. What is the correlation between the difference of wins and losses for the Raptors based on three pointers made.
+In the regular season, the amount of three pointers made was at 398, over 2 times as much as the amount of three pointers made in the teams losses. The team has a much higher chance of winning when they are dominant from the three point range compared to their losses.
+
+### Thank you for reading
