@@ -140,6 +140,9 @@ Results: From our bubble chart that we created, We can see the differences in th
 <img width="1056" alt="Minutes to Outcome(Player Stat)" src="https://user-images.githubusercontent.com/107444840/204927459-643040cb-47b8-4476-8649-bfa9741fb2da.png">
 Result: From our bar chart that is created, we are able to study and examine the amount of minutees played for each Toronto Raptor Player and the overall outcome of the game. As we saw in our analysis earlier, Kawhi Leonard was the highest performing player for the Raptors during the 2018-2019 season. We can see that the amount of minutes he played was at a hig hof 627 total minutes in the teams wins, and also at the high of 312 minutes in the total losses. As far as Kyle Lowry and Pascal Siakam, they are actually tied in total minutes in wins and Kyle Lowry only has 10 more minutes played than Pascal Siakam in Losses. From these results, we can see that the Raptors team is best suited to win when these three players are playing the most minutes on the court in both the playoffs and regular season schedules.
 
+### Tableu Public Link to Charts/Graphs
+Link: https://public.tableau.com/app/profile/hunter6974
+
 ## Summary
 For our project, we were able to do lots of data analysis using many different forms of databases, machine learning, and visualization softwares in order to bring the best results and outcomes for the questions we seeked. Our topic of discussion for this project was to examine a database of the 2018-2019 NBA Champion Toronto Raptors and study their production and performance numbers in their historic run. We were able to look at the Raptors team from both a individual player and entire team in order to get the answers to questions we were searching for in our analysis. These four questions were able to be answered throughout extensive study of the 2018-2019 NBA Champion Toronto Raptors. 
 
