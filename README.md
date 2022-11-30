@@ -12,8 +12,8 @@ For my data source, I was able to find a dataset off the data website Kaggle. I 
 
 ### Questions we will try to answer in our analysis:
 - what is the correlation between the main NBA recorded stastitics(points, assists, attempts, fouls, turnovers) and the outcome of each game.
-- What is the correlation between the amount of turnovers and and points made overall by the team.
-- What is the correlation between the difference of wins and losses for a team while playing at home and away.
+- What is the correlation between the amount of assists the team has in a win versus a Loss in regular season and playoffs.
+- What is the correlation between the difference of wins and losses for the team while playing at home and away.
 - What is the correlation between the amount of minutes played and the overall score of the players.
 
 
@@ -118,3 +118,10 @@ Results:
 From our data collection and coding reports above, we can see that the RandomOverSampler had the highest accuracy score at the 85.83% mark. Our second highest was the ClusterCentroids at the 85% mark, very close to our RandomOverSampler. I believe that we have collected very important data, but it would be interesting to see more about the history of the teams playoof and reguler seasons data previous to the 2018-2019 Championship season. The Toronto Raptors have not always been the team it was for certain during this 2018-2019 period, so it would be intersting to collect data going back since 2000 in order to further evaluate the performance and accruacy score levels of these years prior to the championship run. I would recommend when running ananalysis in the future to use the RandomOverSampler because it brought us the most accurate results in our data analysis. If I could do this again, I would look at more of the outlying statistics(potential limitation) in order to help improve our data collection anaylsis results. 
 
 ### End of Segment 3
+
+## Dashboard
+For our visuilzation aspect, we will use Tableau to create graphs and tables in order to look at what questions we are trying to answer for our project topic and analysis. We will look at the four different questions we asked ourselves and graph/table them in our teableu server in order to further examine the data collected for the Toronto Raptors season. Tableu helps us easily process, build, and visualize our charts and graphs from the Raptors data we collected in both the playoffs and the regular season. 
+
+### What is the correlation between the amount of assists the Toronto Raptors have in a win versus a Loss in regular season and playoffs?
+<img width="1057" alt="Assists W:L in Playoffs:Reg " src="https://user-images.githubusercontent.com/107444840/204911283-91500901-a67e-409f-ab62-220099d5baca.png">
+Results: From our bar graph creation on Tableu, we can examine the differences in the Assists count for Wins and Losses during the Playoffs versus Regular Season. Obviously, the NBA Playoff game format of four series wins to go all the way is a shorter amount of game time then the regular season, but the numbers regarding the assists correlate as far as Wins and Losses. As we can see, the total count of Assists in Wins for both playoffs and regular season is at 1538. The total amount of assists in all of the Raptors team losses is at 629. We can observe that the assist count for wins is almost 2.5 times higher than the total count of assits in the teams losses. The Toronto Raptors have a far better perforamnce and winning outcome in games when they record a higher amount of assists compared to the teams losses.
