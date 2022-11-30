@@ -11,10 +11,11 @@ I will be researching the 2018-2019 Toronto Raptors to examine the correlations 
 For my data source, I was able to find a dataset off the data website Kaggle. I was able to find four main CSV files that examine both the Raptors team and player statistics. From this website, you can access many different sporting stasticics from all over, and for our project we are specifically targeting the NBA. I was able to search through their NBA data collection set in order to find the right database needed for my analysis on the Chapionship winning Toronto team. I believe that these CSV files that I have collected through research will be ideal to use for machine learning processes in order to find the performance results and outcomes I am searching for.
 
 ### Questions we will try to answer in our analysis:
+- What player was the best performing overall by main NBA stats(PTS, REB, AST, STL) through the regular and playoff series.
 - What is the correlation between the amount of minutes played and the overall score of the players.
-- What is the correlation between the amount of assists the team has in a win versus a Loss in regular season and playoffs.
-- What is the correlation between the difference of wins and losses for the team based on three pointers made.
-- What palyer was the best performing player through the playoff series as far as statistics.
+- What is the correlation between the amount of assists the Raptors have in a win versus a Loss in regular season and playoffs.
+- What is the correlation between the difference of wins and losses for the Raptors based on three pointers made.
+
 
 
 ### Communication Protocols
@@ -122,11 +123,17 @@ From our data collection and coding reports above, we can see that the RandomOve
 ## Dashboard
 For our visuilzation aspect, we will use Tableau to create graphs and tables in order to look at what questions we are trying to answer for our project topic and analysis. We will look at the four different questions we asked ourselves and graph/table them in our teableu server in order to further examine the data collected for the Toronto Raptors season. Tableu helps us easily process, build, and visualize our charts and graphs from the Raptors data we collected in both the playoffs and the regular season. 
 
+### What player was the best performing overall by main NBA stats(PTS, REB, AST, STL) through the regular and playoff series?
+<img width="1063" alt="Raptors Player Stastics Playoffs:Reg" src="https://user-images.githubusercontent.com/107444840/204923086-e5d8ee51-b6b1-4a1e-b741-e15eaad33f22.png">
+Results: From our bar graph comparing the stats between the Raptors roseter, we are able to see the key categories where specific players shine and who leads the team overall. As far as points, Kawhi Leonard leads by a longshot at 732 points total. the next highest in points would be Pascal Siakam at 455 points total. For Assists, Kyle Lowery is our lead at 159 total assists, and the second highest in assists being Kawhi Leonard at 94. For Rebounds, Kawhi Leonard leads at a total of 218 rebounds. In second for total rebounds, it is Pascal Siakam. For steals, again Kawhi Leonard is our leader with 40 total steals, and the next highest being kyle lowry at 31 total. Based on our Raptors player statistics, we can easily see that Kawhi Leonard was our highest performing overall players on the 2018-2019 Toronto Raptors Championship team. We can see this because he leads in three out of the four total stats recorded in our graph(PTS, REB, STL)! The only category he was not able to lead in is in assists and he was second in this category. Behing Kawhi Leonard is either Kyle Lowry or Pascal Siakam. They are both the second and third in all categories that are lead by Kawhi Leonard, and it is even between the two. I would give this to Kyle Lowry however because he leads in one category at assists with 159.
+
 ### What is the correlation between the amount of assists the Toronto Raptors have in a win versus a Loss in regular season and playoffs?
 <img width="1057" alt="Assists W:L in Playoffs:Reg " src="https://user-images.githubusercontent.com/107444840/204911283-91500901-a67e-409f-ab62-220099d5baca.png">
 Results: 
 From our bar graph creation on Tableu, we can examine the differences in the Assists count for Wins and Losses during the Playoffs versus Regular Season. Obviously, the NBA Playoff game format of four series wins to go all the way is a shorter amount of game time then the regular season, but the numbers regarding the assists correlate as far as Wins and Losses. As we can see, the total count of Assists in Wins for both playoffs and regular season is at 1538. The total amount of assists in all of the Raptors team losses is at 629. We can observe that the assist count for wins is almost 2.5 times higher than the total count of assits in the teams losses. The Toronto Raptors have a far better perforamnce and winning outcome in games when they record a higher amount of assists compared to the teams losses.
 
-### What is the correlation between the difference of wins and losses for the team based on three pointers made?
+### What is the correlation between the difference of wins and losses for the Raptors based on three pointers made?
 <img width="1066" alt="3PM W:L in Playoffs:Reg" src="https://user-images.githubusercontent.com/107444840/204916611-777cc84f-4513-4399-acb3-cb6e22962177.png">
 Results: From our bubble chart that we created, We can see the differences in the game outcomes based on the amount of three pointers made in both the regular season and playoffs. In the regualar season, the amount of three pointers made was at 398, over 2 times as much as the amount of three pointers made in the teams losses. In the post season(Playoffs), we can see this same trend followed from the regular season. Allthough the difference between the two is not a huge number compared to the regular season, there was 166 made in wins compared to 109 made in losses. From our chart, we can easily see that the amount of three pointers made throughout the season has adirect effect on the overall win or loss outcome of the game regardless of regular season or playoffs.
+
+###  What is the correlation between the amount of minutes played for the Raptors and the overall score of the players?
