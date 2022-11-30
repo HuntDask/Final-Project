@@ -32,6 +32,10 @@ From the data we collected and developed through our ERD and SQL, we can use our
 
 ### End of Segment 1
 
+## Code for our analysis using Pandas through Jupyter Notebook
+Here, our code() is created from our datasets that have been created to analyze the Toronto Raptors team. For our analysis, we are 
+
 ## Making Our Code with Pandas through Jupyter Notebook steps
 
-1. We import the file paths from our Toronot Raptors Analysis using 
+1. We import the file paths from our Toronto Raptors Analysis using file_path to load our regular and playoff data.
+2. 
