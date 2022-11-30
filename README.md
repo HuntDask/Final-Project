@@ -35,7 +35,7 @@ From the data we collected and developed through our ERD and SQL, we can use our
 ## Data Exploration
 For our data exploration, we aim to look at the two main data sets of the regular and playoff games for our Jupyter Notebook algiorthim analysis. In our Preporcessing, we are able ot import our pandas, numy, pathlib, and collections in order to set up our notebook correctly. Four our exploration, we dived into the file_path code in order to link our Toronto Raptors Analysis.
 
-# Data Preprocessing
+## Data Preprocessing
 As said above, I was able to join two datasets the reulgar and playoff season statistics. Shown below is our prelimiary preprocessing, where I was able to code in order to exclude the different statistics that were not needed on order to do our accuracy analysis in our machine lear. I was able able to create our SQL file in order to take out any of the other data values that were not important by checking for null values in our Querying. Shown below, we can see that I removed the matchup, date, and team in order to take out unneccessary data not needed for our analysis. It is important because we do not want to have excess data when creating our aligorithims for resampling purposes. 
 
 ## Outline for our analysis using Pandas through Jupyter Notebook
