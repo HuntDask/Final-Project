@@ -76,16 +76,43 @@ As described in our second segment, I have decided to use different resmapling a
 ## Algorithims results
 
 ### RandomOverSampler algorithim report
-<img width="1437" alt="Screenshot #5 RandomOverSampling" src="https://user-images.githubusercontent.com/107444840/204897402-2ee33baf-ace8-46c5-853c-3de4f5b047a4.png">
+<img width="1440" alt="RandomOverSampler Seg 3" src="https://user-images.githubusercontent.com/107444840/204898657-c3718667-99e5-4362-ba88-f76d77b4d78a.png">
+Results:
+
+Results:
+
+Accuracy Score: 85.83%
+Precision: 86%
+Recall: 85%
+
 
 ### Smote algorithim report
-<img width="1440" alt="Screenshot #6 Smote" src="https://user-images.githubusercontent.com/107444840/204897434-28a79904-40db-4d7b-b31e-f1141542c157.png">
+<img width="1440" alt="Smote Report Seg 3" src="https://user-images.githubusercontent.com/107444840/204898670-d42888b5-b2a6-4df1-8e05-b239fb2ec267.png">
+
+Results:
+
+Accuracy Score: 80%
+Precision: 83%
+Recall: 81%
 
 ### ClusteredCentroids
-<img width="1440" alt="Screenshot #7 ClusteredClustoid" src="https://user-images.githubusercontent.com/107444840/204897466-608eaed4-2e65-4bd8-b311-72ffba4b41b5.png">
+<img width="1440" alt="ClusteredCentroids Report Seg 3" src="https://user-images.githubusercontent.com/107444840/204898702-edaef90c-39f4-4fc6-b7df-20fef546cbbb.png">
+
+Results:
+
+Accuracy Score: 85.01
+Precision: 85%
+Recall: 85%
+
 
 ### Smotten
-<img width="1440" alt="Screenshot #8 Smotten" src="https://user-images.githubusercontent.com/107444840/204897480-a0588eeb-532a-47f8-913b-c148ce9aa441.png">
+<img width="1440" alt="Smotten Report Seg 3" src="https://user-images.githubusercontent.com/107444840/204898723-bea3e57d-58c1-4620-a212-d82eb9fb589d.png">
+
+Results:
+
+Accuracy Score: 80%
+Precision: 85%
+Recall: 78%
 
 
 ## Analysis phase
