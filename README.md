@@ -29,3 +29,9 @@ For our database, I started by creting a ERD file in quickdatabaseprograms. I wa
 From the data we collected and developed through our ERD and SQL, we can use our machine learning models that we have deloped in class. We will want to use or learning of under and oversampling, and differnt sampling algorithims in order to find what statiscs and categories are the most important for us to develop and study further. we will use differnt columns from the data we have created in our database files. Some of the data columns will be from dates, floats, and integers in order to match of our categories such as teams, dates, points, all the important categories we need to make a evaluation of the teams performance. Below are some of the eamples that we used previously in our database creation in order to start our machine learning in pandas in the next segment.
 
 <img width="309" alt="Machine Learning Model columns Segment 1" src="https://user-images.githubusercontent.com/107444840/204730974-3c05e784-3588-4129-ab67-1907d651d265.png">
+
+### End of Segment 1
+
+## Making Our Code with Pandas through Jupyter Notebook steps
+
+1. We import the file paths from our Toronot Raptors Analysis using 
