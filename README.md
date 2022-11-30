@@ -27,6 +27,7 @@ For our database, I started by creating a ERD file in quickdatabaseprograms. I w
 
 ## Machine Learning
 From the data we collected and developed through our ERD and SQL, we can use our machine learning models that we have developed in class. To look at our Raptors data we have collected more closely, we will use both under and oversampling along with differnet sampling algorithims in order to find what statistics/categories are the most important for us to develop and study further. We will examine our analyis by using algorithims we have learned in class. These four main algirithems are RandomOversampler(Over), Smote(Over), ClusterCentoids(Under), and Smotten(Under). These will tell us which of the models we are using will bring us the most accurate data results on the Toronto Raptors and predicitng the teams outcomes. Below are some of the examples that we used previously in our database creation in order to start our machine learning in pandas in the next segment. We explain in detial our actual outline of data exploration and coding in the future segments.
+
 <img width="309" alt="Machine Learning Model columns Segment 1" src="https://user-images.githubusercontent.com/107444840/204730974-3c05e784-3588-4129-ab67-1907d651d265.png">
 
 ### End of Segment 1
