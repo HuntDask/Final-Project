@@ -31,10 +31,36 @@ From the data we collected and developed through our ERD and SQL, we can use our
 
 ### End of Segment 1
 
-## Code for our analysis using Pandas through Jupyter Notebook
-Here, our code() is created from our datasets that have been created to analyze the Toronto Raptors team. For our analysis, we are 
+## Data Exploration
+For our data exploration, we aim to look at the two main data sets of the regular and playoff games for our Jupyter Notebook algiorthim analysis. In our Preporcessing, we are able ot import our pandas, numy, pathlib, and collections in order to set up our notebook correctly. Four our exploration, we dived into the file_path code in order to link our Toronto Raptors Analysis.
+
+## Outline for our analysis using Pandas through Jupyter Notebook
+Above is our main Jupter code we created from our datasets using pandas that have been structured to analyze the Toronto Raptors team. For our analysis, we are examining the two main data sets of the regular and playoff games. When we were asked to create a machine learning model of this Raptors data, we needed to create algorithins that were able to resample our data to help is include the most accurate data possible with the teams wins and losses. We were able to import the data in jupyter and do a cohesive analysis using hte different coding tools we learned through pandas and Jupyter notebook. We aim to look at the four main algirithems are RandomOversampler(Over), Smote(Over), ClusterCentoids(Under), and Smotten(Under) in order to find the best accuracy for our data using resampling methods for the Toronto Raptors Organization. 
 
 ## Making Our Code with Pandas through Jupyter Notebook steps
+### Data can be found at Toronto Raptors Analysis.ipynb in our files above. 
 
-1. We import the file paths from our Toronto Raptors Analysis using file_path to load our regular and playoff data.
-2. 
+1. To start, we import the file paths from our Toronto Raptors Analysis using file_path to load our regular and playoff data.
+<img width="1396" alt="Screenshot #1 Import" src="https://user-images.githubusercontent.com/107444840/204876136-7f8e3cd9-8435-4c73-be3d-8d9bcc7a7a9b.png">
+
+2. Next, I join the two Raptors datasets together and then clean our data by droping any of the random colmuns we are not using. In this case we are droping date, team, and mathcup.
+<img width="1425" alt="Screenshot #2 Join:Clean" src="https://user-images.githubusercontent.com/107444840/204876459-5f04bca3-5770-4e4e-a34f-4c603dba2b82.png">
+
+3. Next, we count the Toronto Raptors team total wins and losses from our 2018-2019 data and convert them into a Win and Loss column in order to analyze the number of each for the season.
+<img width="1433" alt="Screenshot #3 W:L " src="https://user-images.githubusercontent.com/107444840/204876764-e6b98e56-4d09-4996-ae62-8d3eb7716ac0.png">
+
+4. Next, we seperate our data into Testing and Training by creating the Wins and Loss Features. We then create our target by assinging the W/L for the cleaned_df graph we have created above previously. Using X.describe(), we can anlyze our findings through our created table.
+<img width="1432" alt="Screenshot #4 Trainging:Testing " src="https://user-images.githubusercontent.com/107444840/204876868-ec995156-8083-453c-8b75-2c90bbf85d68.png">
+
+5. Here, we create our first codes for our resampling algorithims using the RandomOVerSampler method. 
+<img width="1437" alt="Screenshot #5 RandomOverSampling" src="https://user-images.githubusercontent.com/107444840/204878095-98982bc0-1bc3-4a13-9161-40538d93ff7e.png">
+
+6. Next, we create our second resampling algorithim using the Smote method.
+<img width="1440" alt="Screenshot #6 Smote" src="https://user-images.githubusercontent.com/107444840/204878115-37019d32-6733-423b-a893-a97e5e7d8485.png">
+
+7. Next, we create our third resampling algorithim using the ClusteredClustoid method.
+<img width="1440" alt="Screenshot #7 ClusteredClustoid" src="https://user-images.githubusercontent.com/107444840/204878140-597200d3-0ac1-410b-b904-66acca8e4f2a.png">
+
+8. Finally, we create our fourth and last resampling algorithim using the Smotten method.
+<img width="1440" alt="Screenshot #8 Smotten" src="https://user-images.githubusercontent.com/107444840/204878171-a18ad5fb-a1b4-47a9-83e3-cafee1b18116.png">
+
