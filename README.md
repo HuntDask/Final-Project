@@ -77,13 +77,12 @@ As described in our second segment, I have decided to use different resmapling a
 
 ### RandomOverSampler algorithim report
 <img width="1440" alt="RandomOverSampler Seg 3" src="https://user-images.githubusercontent.com/107444840/204898657-c3718667-99e5-4362-ba88-f76d77b4d78a.png">
-Results:
 
 Results:
 
-Accuracy Score: 85.83%
-Precision: 86%
-Recall: 85%
+- Accuracy Score: 85.83%
+- Precision: 86%
+- Recall: 85%
 
 
 ### Smote algorithim report
@@ -91,18 +90,18 @@ Recall: 85%
 
 Results:
 
-Accuracy Score: 80%
-Precision: 83%
-Recall: 81%
+- Accuracy Score: 80%
+- Precision: 83%
+- Recall: 81%
 
 ### ClusteredCentroids
 <img width="1440" alt="ClusteredCentroids Report Seg 3" src="https://user-images.githubusercontent.com/107444840/204898702-edaef90c-39f4-4fc6-b7df-20fef546cbbb.png">
 
 Results:
 
-Accuracy Score: 85.01
-Precision: 85%
-Recall: 85%
+- Accuracy Score: 85.01
+- Precision: 85%
+- Recall: 85%
 
 
 ### Smotten
@@ -110,9 +109,9 @@ Recall: 85%
 
 Results:
 
-Accuracy Score: 80%
-Precision: 85%
-Recall: 78%
+- Accuracy Score: 80%
+- Precision: 85%
+- Recall: 78%
 
 
 ## Analysis phase
